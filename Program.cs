@@ -1,6 +1,4 @@
-﻿Console.Write("Nhap chieu dai cua san: ");
-decimal a = decimal.Parse(Console.ReadLine());
-Console.Write("Nhap chieu rong cua san: ");
-decimal b = decimal.Parse(Console.ReadLine());
-decimal S = a * b;
-Console.WriteLine($"Dien tich cua san la: {S}");
+﻿Console.Write("Nhap so nguoi: ");
+decimal so_nguoi = decimal.Parse(Console.ReadLine());
+decimal so_tien = 50000 * so_nguoi;
+Console.WriteLine($"So tien mua ve la: {so_tien}");
